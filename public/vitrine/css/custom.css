@@ -1,0 +1,473 @@
+
+
+/**Fahouzia*/
+/** ADD YOUR AWESOME CODES HERE **/
+div.modif.cout.f{
+  display: flex !important;
+  justify-content: center;
+}
+
+/* ------------------------------- INSCRIPTION ------------------------------ */
+
+.modif.ctn_infos.f {
+  padding   : 14px;
+  margin    : 40px auto;
+  width     : 800px;
+  height    : 700px;
+  background: #09002d;
+  box-sizing: border-box;
+  overflow  : hidden;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
+  border    : 2px solid rgba(0, 0, 0, 0.5);
+}
+
+#red.modif.lf{
+  color:rgb(255, 111, 0);
+  font-weight: bolder;
+  font-size: 25px;
+}
+.modif.ctn_infos.f h2 {
+  font-size: 18px;
+}
+
+.promotion h1 {
+  text-align: justify;
+}
+
+.modif.ctn_infos.f p,
+.modif.ctn_infos.f h2,
+.promotion h1 {
+  color: rgb(255, 255, 255);
+}
+
+.modif.ctn_infos.f .contenu {
+  height    : 100%;
+  border    : 2px solid rgb(255, 111, 0);
+  padding   : 30px;
+  text-align: center;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.contenu .align-text {
+  display        : flex;
+  justify-content: space-between;
+  padding        : 8px;
+}
+
+.modif.ctn_infos.f .contenu {
+  display        : flex;
+  flex-direction : column;
+  justify-content: space-between;
+}
+
+
+@media screen and (max-width: 500px) {
+
+  .modif.ctn_infos.f .contenu {
+      padding: 10px;
+  }
+
+  .modif.ctn_infos.f {
+      width : 350px;
+      height: 600px;
+  }
+
+  .modif.ctn_infos.f p,
+  .modif.ctn_infos.f h2 {
+      font-size: 15px;
+  }
+
+}
+
+
+@media screen and (max-width: 400px) {
+
+  .modif.ctn_infos.f {
+      width : 300px;
+      height: 500px;
+  }
+
+  .modif.ctn_infos.f p,
+  .modif.ctn_infos.f h2 {
+      font-size: 12px;
+  }
+}
+
+/*-----------------------------diplômés------------------------------------*/
+
+.modif.timeline.f {
+  display: flex;
+  flex-direction: column;
+  margin: 20px auto;
+  position: relative;
+  background-color: none;
+}
+
+.modif.timeline__event.f {
+  margin-bottom: 20px;
+  position: relative;
+  display: flex;
+  margin: 20px 0;
+  border-radius: 6px;
+  align-self: center;
+  width: 50vw;
+}
+
+.modif.timeline__event.f:nth-child(2n+1) {
+  flex-direction: row-reverse;
+}
+
+.modif.timeline__event.f:nth-child(2n+1) .modif.timeline__event__date {
+  border-radius: 0 6px 6px 0;
+}
+
+.modif.timeline__event.f:nth-child(2n+1) .modif.timeline__event__content {
+  border-radius: 6px 0 0 6px;
+}
+
+.modif.timeline__event.f:nth-child(2n+1) .modif.timeline__event__icon:before {
+  content: "";
+  width: 2px;
+  height: 100%;
+  background: #f6a4ec;
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  right: auto;
+  z-index: -1;
+  -webkit-animation: fillTop 2s forwards 4s ease-in-out;
+  animation: fillTop 2s forwards 4s ease-in-out;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+}
+
+.modif.timeline__event.f:nth-child(2n+1) .modif.timeline__event__icon.f:after {
+  content: "";
+  width: 100%;
+  height: 2px;
+  background: #f6a4ec;
+  position: absolute;
+  right: 0;
+  z-index: -1;
+  top: 50%;
+  left: auto;
+  transform: translateY(-50%);
+  -webkit-animation: fillLeft 2s forwards 4s ease-in-out;
+  animation: fillLeft 2s forwards 4s ease-in-out;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+}
+
+.modif.timeline__event__title.f {
+  font-size: 1.2rem;
+  line-height: 1.4;
+  font-weight: 600;
+  color: #9251ac;
+  letter-spacing: 1.5px;
+}
+
+.modif.timeline__event__content.f {
+  padding: 20px;
+  box-shadow: 0 30px 60px -12px rgba(50, 50, 93, 0.25), 0 18px 36px -18px rgba(0, 0, 0, 0.3), 0 -12px 36px -8px rgba(0, 0, 0, 0.025);
+  background: #fff;
+  width: calc(40vw - 84px);
+  border-radius: 0 6px 6px 0;
+}
+
+.modif.timeline__event__date.f {
+  color: #f6a4ec;
+  font-size: 1.5rem;
+  font-weight: 600;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  padding: 0 20px;
+  border-radius: 6px 0 0 6px;
+}
+
+.modif.timeline__event__icon.f {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #9251ac;
+  padding: 20px;
+  align-self: center;
+  margin: 0 20px;
+  border-radius: 100%;
+  width: 40px;
+  box-shadow: 0 30px 60px -12px rgba(50, 50, 93, 0.25), 0 18px 36px -18px rgba(0, 0, 0, 0.3), 0 -12px 36px -8px rgba(0, 0, 0, 0.025);
+  padding: 40px;
+  height: 40px;
+  position: relative;
+}
+
+.modif.timeline__event__icon.f i {
+  font-size: 32px;
+}
+
+.modif.timeline__event__icon.f:before {
+  content: "";
+  width: 2px;
+  height: 100%;
+  background: #f6a4ec;
+  position: absolute;
+  top: 0%;
+  z-index: -1;
+  left: 50%;
+  animation: fillTop 2s forwards 4s ease-in-out;
+  -webkit-animation: fillTop 2s forwards 4s ease-in-out;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+}
+
+.modif.timeline__event__icon.f:after {
+  content: "";
+  width: 100%;
+  height: 2px;
+  background: #f6a4ec;
+  position: absolute;
+  left: 0%;
+  z-index: -1;
+  top: 50%;
+  -webkit-animation: fillLeftOdd 2s forwards 4s ease-in-out;
+  animation: fillLeftOdd 2s forwards 4s ease-in-out;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+}
+
+.modif.timeline__event__description.f p{
+  flex-basis: 100%;
+  font-size: 13px;
+}
+
+.modif.timeline__event--type2.f:after {
+  background: #555ac0;
+}
+
+.modif.timeline__event--type2.f:nth-child(2n+1) .modif.timeline__event__icon.f:before,
+.modif.timeline__event--type2.f:nth-child(2n+1) .modif.timeline__event__icon.f:after {
+  background: #87bbfe;
+}
+
+.modif.timeline__event--type2.f .modif.timeline__event__icon:before,
+.modif.timeline__event--type2.f .modif.timeline__event__icon:after {
+  background: #87bbfe;
+}
+
+.modif.timeline__event--type2.f .modif.timeline__event__title {
+  color: #555ac0;
+}
+
+.modif.timeline__event--type3.f:after {
+  background: #24b47e;
+}
+
+.modif.timeline__event--type3.f:nth-child(2n+1) .modif.timeline__event__icon.f:before,
+.modif.timeline__event--type3.f:nth-child(2n+1) .modif.timeline__event__icon.f:after {
+  background: #aff1b6;
+}
+
+.modif.timeline__event--type3.f .modif.timeline__event__icon.f:before,
+.modif.timeline__event--type3.f .modif.timeline__event__icon.f:after {
+  background: #aff1b6;
+}
+
+.modif.timeline__event--type3.f .modif.timeline__event__title.f {
+  color: #24b47e;
+}
+
+.modif.timeline__event:last-child.f .modif.timeline__event__icon:before.f {
+  content: none;
+}
+
+
+
+
+
+@media (max-width: 786px) {
+  .modif.timeline__event.f {
+    flex-direction: column;
+    align-self: center;
+  }
+
+  .modif.timeline__event__content.f {
+    width: 100%;
+  }
+
+  .modif.timeline__event__icon.f {
+    border-radius: 6px 6px 0 0;
+    width: 100%;
+    margin: 0;
+    box-shadow: none;
+  }
+
+  .modif.timeline__event__icon.f:before,
+  .modif.timeline__event__icon.f:after {
+    display: none;
+  }
+
+  .modif.timeline__event__date.f {
+    border-radius: 0;
+    padding: 20px;
+  }
+
+  .modif.timeline__event.f:nth-child(2n+1) {
+    flex-direction: column;
+    align-self: center;
+  }
+
+  .modif.timeline__event.f:nth-child(2n+1) .modif.timeline__event__date.f {
+    border-radius: 0;
+    padding: 20px;
+  }
+
+  .modif.timeline__event.f:nth-child(2n+1) .modif.timeline__event__icon.f {
+    border-radius: 6px 6px 0 0;
+    margin: 0;
+  }
+}
+
+@-webkit-keyframes fillLeft {
+  100% {
+    right: 100%;
+  }
+}
+
+@keyframes fillLeft {
+  100% {
+    right: 100%;
+  }
+}
+
+@-webkit-keyframes fillTop {
+  100% {
+    top: 100%;
+  }
+}
+
+@keyframes fillTop {
+  100% {
+    top: 100%;
+  }
+}
+
+@-webkit-keyframes fillLeftOdd {
+  100% {
+    left: 100%;
+  }
+}
+
+@keyframes fillLeftOdd {
+  100% {
+    left: 100%;
+  }
+}
+/**Hafiz*/
+
+
+/** ADD YOUR AWESOME CODES HERE **/
+#concour{
+  text-align: center;
+}
+#bienvuenue{
+  text-align: center;
+}
+/** STYLE DE LA BOITE DU POURQUOI CHOISIRE L'IFNTI**/
+div.message-box.modif.hafiz.span span{
+  font-size: 1rem;
+}
+div.message-box.modif.hafiz.span span i {
+  align-self: center;
+  font-size: 2rem;
+  color: #eea412;
+  font-weight: bold;
+  margin-right: 3px;
+}
+
+/** page de cours de bd**/
+div.modif.hafiz.bd{
+  background: url(../images/img/server-90389_1280.jpg)no-repeat;
+  -webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+background-position: center;
+min-height: 300px;
+}
+div.modif.hafiz.se{
+  background: url(../images/img/12sofware-developer.jpg)no-repeat;
+  -webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+background-position: center;
+min-height: 300px;
+}
+div.modif.hafiz.programmation{
+  background: url(../images/img/06html-css-collag.jpg)no-repeat;
+  -webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+background-position: center;
+min-height: 300px;
+}
+
+div.modif.hafiz.rs{
+  background: url(../images/img/06html-css-collag.jpg)no-repeat;
+  -webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+background-position: center;
+min-height: 300px;
+}
+
+
+
+/*audrey*/
+
+/** ADD YOUR AWESOME CODES HERE **/
+.modif.audrey.banner-mod {
+  background: url(../images/prof_banner.jpg) no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  min-height: 300px;
+}
+
+.contenu .align-text.audrey h2 {
+  text-align: start;
+}
+
+.contenu .align-text.audrey p {
+  text-align: end;
+}
+
+.ctn_infos.audrey {
+	padding: 14px;
+	margin: 40px auto;
+	width: 900px;
+	height: 300px;
+	background: #001e2d;
+	box-sizing: border-box;
+	overflow: hidden;
+	box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
+	border: 2px solid rgba(0, 0, 0, 0.5);
+  }

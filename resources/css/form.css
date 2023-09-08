@@ -1,0 +1,238 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+.formulaire {
+  margin-left: 15%;
+  margin-right: 15%;
+}
+.formulaire .identite,
+.formulaire .identite1,
+.formulaire .identite2 {
+  padding: 20px;
+  background: whitesmoke;
+  margin: auto;
+  box-shadow: 5px 3px 8px rgb(139, 136, 136);
+  margin-top: 2rem;
+}
+.formulaire .identite h1,
+.formulaire .identite1 h1,
+.formulaire .identite2 h1 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+.formulaire .identite .info_perso .fields,
+.formulaire .identite1 .info_perso .fields,
+.formulaire .identite2 .info_perso .fields {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.formulaire .identite .info_perso .fields .col1,
+.formulaire .identite1 .info_perso .fields .col1,
+.formulaire .identite2 .info_perso .fields .col1 {
+  flex-wrap: wrap;
+}
+.formulaire .identite .info_perso .fields .col1 .groupe,
+.formulaire .identite1 .info_perso .fields .col1 .groupe,
+.formulaire .identite2 .info_perso .fields .col1 .groupe {
+  padding: 10px;
+}
+.formulaire .identite .info_perso .fields .col1 .groupe input,
+.formulaire .identite .info_perso .fields .col1 .groupe select,
+.formulaire .identite1 .info_perso .fields .col1 .groupe input,
+.formulaire .identite1 .info_perso .fields .col1 .groupe select,
+.formulaire .identite2 .info_perso .fields .col1 .groupe input,
+.formulaire .identite2 .info_perso .fields .col1 .groupe select {
+  width: 100%;
+  padding: 10px;
+}
+.formulaire .identite .sui,
+.formulaire .identite1 .sui,
+.formulaire .identite2 .sui {
+  margin-top: 1rem;
+  display: block;
+  text-align: center;
+  align-items: center;
+}
+.formulaire .identite .sui a,
+.formulaire .identite1 .sui a,
+.formulaire .identite2 .sui a {
+  font-weight: bold;
+  font-size: 1.8rem;
+}
+.formulaire .identite2 .mac {
+  margin-bottom: 1rem;
+  display: flex;
+}
+.formulaire .identite2 .mac .bouts {
+  margin-right: 10px;
+}
+.formulaire .identite2 .mac .bouts button {
+  padding: 5px;
+  height: 2rem;
+  width: 2rem;
+  border-radius: 50%;
+  cursor: pointer;
+  border: 0;
+  outline: none;
+  box-shadow: 5px 3px 8px rgb(139, 136, 136);
+  font-weight: bold;
+  transition: 0.6s;
+}
+.formulaire .identite2 .mac .bouts:active {
+  transform: scale(1.3);
+}
+.formulaire .identite2 .mac .bouts .rad1:hover {
+  background: blue;
+  color: white;
+}
+.formulaire .identite2 .mac .bouts .rad2:hover {
+  background: darkorange;
+  color: white;
+}
+.formulaire .identite2 .mac .bouts .rad3:hover {
+  background: orangered;
+  color: white;
+}
+.formulaire .identite2 .mac .bouts .rad4:hover {
+  background: teal;
+  color: white;
+}
+.formulaire .infos .second {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 2%;
+}
+.formulaire .infos .second .infossec h3 {
+  font-size: 1.7rem;
+}
+.formulaire .infos .second .infossec select {
+  padding: 5px;
+  font-weight: bold;
+}
+.formulaire .infos .second .infossec select:hover {
+  background: gray;
+  color: white;
+}
+.formulaire .infos .second .infosets h3 {
+  font-size: 1.5rem;
+}
+.formulaire .infos .second .infosets input {
+  padding: 5px;
+}
+.formulaire .infos .second .infosemes h3 {
+  font-size: 1.5rem;
+}
+.formulaire .infos .second .infosemes .check {
+  display: flex;
+  justify-content: center;
+}
+.formulaire .infos .second .infosemes .check .s2 {
+  margin-right: 20px;
+}
+.formulaire .infos .second .infosemes .check .s2 label {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.formulaire .infos .second .infosemes .check .s3 label {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.formulaire .infos .identite3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+.formulaire .infos .identite3 .trim2,
+.formulaire .infos .identite3 .trim3,
+.formulaire .infos .identite3 .trim22,
+.formulaire .infos .identite3 .trim33,
+.formulaire .infos .identite3 .trim222,
+.formulaire .infos .identite3 .trim333 {
+  display: none;
+}
+.formulaire .infos .identite3 .trim2,
+.formulaire .infos .identite3 .trim3,
+.formulaire .infos .identite3 .trim22,
+.formulaire .infos .identite3 .trim33,
+.formulaire .infos .identite3 .trim222,
+.formulaire .infos .identite3 .trim333,
+.formulaire .infos .identite3 .exam {
+  margin-bottom: 1rem;
+  border-collapse: collapse;
+  width: auto;
+  margin: auto;
+  cursor: pointer;
+}
+.formulaire .infos .identite3 .trim2 thead tr,
+.formulaire .infos .identite3 .trim3 thead tr,
+.formulaire .infos .identite3 .trim22 thead tr,
+.formulaire .infos .identite3 .trim33 thead tr,
+.formulaire .infos .identite3 .trim222 thead tr,
+.formulaire .infos .identite3 .trim333 thead tr,
+.formulaire .infos .identite3 .exam thead tr {
+  background: rgb(207, 31, 8);
+  color: white;
+  text-align: left;
+}
+.formulaire .infos .identite3 .trim2 thead tr th,
+.formulaire .infos .identite3 .trim3 thead tr th,
+.formulaire .infos .identite3 .trim22 thead tr th,
+.formulaire .infos .identite3 .trim33 thead tr th,
+.formulaire .infos .identite3 .trim222 thead tr th,
+.formulaire .infos .identite3 .trim333 thead tr th,
+.formulaire .infos .identite3 .exam thead tr th {
+  padding: 10px 7px;
+  text-align: center;
+}
+.formulaire .infos .identite3 .trim2 tbody tr td,
+.formulaire .infos .identite3 .trim3 tbody tr td,
+.formulaire .infos .identite3 .trim22 tbody tr td,
+.formulaire .infos .identite3 .trim33 tbody tr td,
+.formulaire .infos .identite3 .trim222 tbody tr td,
+.formulaire .infos .identite3 .trim333 tbody tr td,
+.formulaire .infos .identite3 .exam tbody tr td {
+  padding: 10px 15px;
+}
+.formulaire .infos .identite3 .trim2 tbody tr:nth-child(even),
+.formulaire .infos .identite3 .trim3 tbody tr:nth-child(even),
+.formulaire .infos .identite3 .trim22 tbody tr:nth-child(even),
+.formulaire .infos .identite3 .trim33 tbody tr:nth-child(even),
+.formulaire .infos .identite3 .trim222 tbody tr:nth-child(even),
+.formulaire .infos .identite3 .trim333 tbody tr:nth-child(even),
+.formulaire .infos .identite3 .exam tbody tr:nth-child(even) {
+  background: rgb(184, 181, 181);
+}
+.formulaire .infos .identite3 .trim2 tbody tr input[type=text],
+.formulaire .infos .identite3 .trim3 tbody tr input[type=text],
+.formulaire .infos .identite3 .trim22 tbody tr input[type=text],
+.formulaire .infos .identite3 .trim33 tbody tr input[type=text],
+.formulaire .infos .identite3 .trim222 tbody tr input[type=text],
+.formulaire .infos .identite3 .trim333 tbody tr input[type=text],
+.formulaire .infos .identite3 .exam tbody tr input[type=text] {
+  padding: 6px;
+  border: 0;
+  outline: none;
+  background-color: rgb(216, 212, 212);
+  box-shadow: 1px 1px 2px rgb(215, 20, 20);
+}
+.formulaire .infos .identite3 .trimo2, .formulaire .infos .identite3 .trimo3, .formulaire .infos .identite3 .pretrimo2, .formulaire .infos .identite3 .pretrimo3, .formulaire .infos .identite3 .tertrimo2, .formulaire .infos .identite3 .tertrimo3 {
+  display: block;
+}
+.formulaire .etape2, .formulaire .etape3, .formulaire .etape4 {
+  display: none;
+}
+.formulaire .etap2, .formulaire .etap3, .formulaire .etap4 {
+  display: block;
+}
+
+/*# sourceMappingURL=_main.css.map */

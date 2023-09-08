@@ -1,0 +1,40 @@
+
+    div.partenaire.lf {
+      position: relative;
+      width: 100%;
+      border: dark solid .125rem;
+    }
+
+    div.partenaire.lf {
+      background: green;
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color: #000;
+      margin: 0;
+      padding: 0;
+    }
+
+    swiper-container {
+      width: 100%;
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
+
+    swiper-slide {
+      background-position: center;
+      background-size: cover;
+      width: 300px;
+      height: 300px;
+    }
+
+    swiper-slide img {
+      display: block;
+      width: 100%;
+    }
+
+	.modif.slide.f{
+		display:flex;
+		
+		align-items: center;
+		text-align: center;
+	}

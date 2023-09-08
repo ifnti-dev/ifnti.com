@@ -1,0 +1,323 @@
+.show {
+    width: 100%;
+}
+
+.dossier-vue {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.dossier-vue .info-candidat-container {
+    margin: auto;
+    background-color: ivory;
+    min-width: 50%;
+    margin: 20px;
+}
+
+.dossier-vue .info-candidat-container .info-candidat {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+}
+
+.dossier-vue .info-candidat-container .info-candidat span:nth-child(1) {
+    font-size: 1.6rem;
+}
+
+.dossier-vue .info-candidat-container .info-candidat span:nth-child(2) {
+    font-size: 1.3rem;
+}
+
+.dossier-vue .etat {
+    color: #1aa385;
+    display: inline-flex;
+    align-items: center;
+    font-size: larger;
+}
+
+.dossier-vue .etat svg {
+    margin-right: 6px;
+    width: 22px;
+    height: 22px;
+    padding: 3px;
+    border-radius: 4px;
+    background-color: #dadadf;
+    color: currentColor;
+}
+
+.dossier-vue .etat.est_complet {
+    color: green;
+}
+
+.dossier-vue .etat.est_rejete {
+    color: red;
+}
+
+.dossier-vue .etat.est_rejete svg {
+    color: currentcolor;
+}
+
+.dossier-vue .etat.en_attente {
+    color: orange;
+    position: relative;
+}
+
+.dossier-vue .etat.en_attente:before {
+    width: 22px;
+    height: 22px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    content: "";
+    border-radius: 4px;
+}
+
+.dossier-vue .etat.en_attente svg {
+    background-color: transparent;
+    color: currentcolor;
+    -webkit-animation: turn 2s linear infinite both;
+    animation: turn 2s linear infinite both;
+}
+
+@-webkit-keyframes turn {
+    100% {
+        transform: rotate(1turn);
+    }
+}
+
+@keyframes turn {
+    100% {
+        transform: rotate(1turn);
+    }
+}
+
+/*Ajout*/
+
+.note-concours button,
+.dossier-data-table a {
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    font-size: larger;
+    background-color: #68a7999d;
+    text-align: center;
+    margin: 10px;
+}
+
+.note-concours button:hover,
+.dossier-data-table a:hover {
+    transform: scaleX(1.1) scaleY(1.1);
+    transition: all 1 ease-in-out;
+    background-color: #1aa385;
+}
+
+.note-concours #note-submit,
+#note-edit {
+    text-align: center;
+}
+
+/*Formulaire d'édition du dossier*/
+.dossier-form {
+    padding: 20px;
+    margin: auto;
+    min-width: 50%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.dossier-form section {
+    padding: 20px;
+    margin: auto;
+    min-width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.dossier-form fieldset {
+    background-color: ivory;
+}
+
+.dossier-form .form-dossier-ligne {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    margin: 10px;
+}
+
+[type="radio"] {
+    display: none;
+}
+
+label:hover,
+input:hover {
+    cursor: pointer;
+}
+
+.rad {
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    border-radius: 50%;
+    border: 1px black solid;
+}
+
+input:checked ~ .rad {
+    border: 3px solid black;
+}
+
+#admis:checked ~ .rad {
+    background-color: green;
+}
+
+#rejete:checked ~ .rad {
+    background-color: red;
+}
+
+#attente:checked ~ .rad {
+    background-color: orange;
+}
+
+.dossier-appreciation textarea {
+    resize: none;
+    caret-color: teal;
+    caret: 3px;
+}
+
+.adder-notes > h1 {
+    text-align: center;
+}
+
+#show-dossier-appreciation-link,
+#show-dossier-editer-note-link,
+#show-dossier-editer-link {
+    position: fixed;
+    right: 50px;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    color: white;
+    background-color: #1aa385;
+    border-radius: 15px;
+}
+
+#show-dossier-editer-note-link {
+    bottom: 220px;
+}
+
+#show-dossier-appreciation-link {
+    bottom: 160px;
+}
+
+#show-dossier-editer-link {
+    bottom: 100px;
+    background-color: dodgerblue;
+}
+
+#show-dossier-editer-link:hover,
+#show-dossier-appreciation-link:hover,
+#show-dossier-editer-note-link:hover {
+    transform: scale(1.1);
+    transition: 0.5 ease-in-out all;
+}
+
+.adder-notes {
+    position: relative;
+}
+
+#trait1,
+#trait2 {
+    position: absolute;
+    left: 20px;
+    width: 2px;
+    height: 30px;
+    color: red;
+}
+
+#trait2 {
+    transform: rotateZ(45deg);
+}
+
+#trait1 {
+    transform: rotateZ(-45deg);
+}
+
+  
+.tout {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.309);
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+  @keyframes slide-in-elliptic-top-fwd {
+    0% {
+      -webkit-transform: translateY(-600px) rotateX(-30deg) scale(0);
+              transform: translateY(-600px) rotateX(-30deg) scale(0);
+      -webkit-transform-origin: 50% 100%;
+              transform-origin: 50% 100%;
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateY(0) rotateX(0) scale(1);
+              transform: translateY(0) rotateX(0) scale(1);
+      -webkit-transform-origin: 50% 1400px;
+              transform-origin: 50% 1400px;
+      opacity: 1;
+    }
+  }
+  
+
+.dossier-modal {
+    background-color: aliceblue;
+    z-index: 1000;
+    animation: slide-in-elliptic-top-fwd 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+
+}
+
+.blur {
+    filter: blur(10px);
+    z-index: -1;
+    position: relative;
+}
+
+.saver-doss {
+    margin: auto;
+    padding: 10px;
+    border-radius: 15px;
+    font-size: 1.2rem;
+    background-color: #1aa385;
+    color: #fff;
+}
+
+
+.view_status {
+	-webkit-animation: roll-in-left 0.6s ease-out both;
+	        animation: roll-in-left 0.6s ease-out both;
+}
+
+
+@keyframes roll-in-left {
+    0% {
+      -webkit-transform: translateX(800px) rotate(-540deg);
+              transform: translateX(800px) rotate(-540deg);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateX(0) rotate(0deg);
+              transform: translateX(0) rotate(0deg);
+      opacity: 1;
+    }
+  }
+  

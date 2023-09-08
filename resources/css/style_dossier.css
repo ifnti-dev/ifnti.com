@@ -1,0 +1,325 @@
+:root {
+    --border        : #1aa385;
+}
+
+.container-form form,
+.contianer-recherche,
+.container-select {
+    display        : flex;
+}
+
+.container-form form {
+    justify-content        : space-around;
+}
+
+
+.container-tous,
+.mes-tables,
+.container-tables-,
+.container-tous .infos,
+.container-tous .notes,
+.container-tous .divers {
+    display                : flex;
+    justify-content        : space-between;
+}
+
+.container-tous {
+    margin-top        : 20px;
+}
+
+.container-tous,
+.mes-tables {
+    text-align              : center;
+    min-width               : 50%;
+    background-color        : #f1efec;
+    padding                 : 10px;
+    border-radius           : 5px;
+    width                   : 70%;
+}
+
+.container-candidat,
+.container-tous .divers {
+    width        : 45%;
+}
+
+.container-tous .infos-personnelles {
+    border               : 2px solid var(--border);
+    padding              : 10px;
+    border-radius        : 5px;
+
+}
+
+.container-tous .infos,
+.container-tous .notes {
+    position              : relative;
+    padding-top           : 7px;
+    padding-bottom        : 7px;
+    border-bottom         : 2px dotted rgb(145, 144, 143);
+}
+
+.container-tous .notes:last-child,
+.container-tous .infos:last-child {
+    border        : none;
+}
+
+.dot {
+    position        : absolute;
+    right           : 50%;
+}
+
+.container-tous .container-notes {
+    border               : 2px solid var(--border);
+    padding              : 10px;
+    border-radius        : 5px;
+
+}
+
+.container-tous .divers {
+    flex-direction        : column;
+}
+
+
+.mes-tables .preview button img,
+.mes-tables .next button img {
+    transition        : all 500ms ease-in-out;
+    transform         : scale(0.6);
+}
+
+.mes-tables .preview button,
+.mes-tables .next button {
+    display                 : flex;
+    justify-content         : center;
+    width                   : 50px;
+    height                  : 50px;
+    background-color        : rgb(175, 142, 137);
+    border-radius           : 50%;
+    margin-bottom           : 8px;
+    border                  : 0;
+    outline                 : none;
+}
+
+.mes-tables .preview button:hover,
+.mes-tables .next button:hover {
+    background-color        : #7a3627;
+    transition              : all 100ms ease-in-out;
+    cursor                  : pointer;
+}
+
+.mes-tables .next button.dis,
+.mes-tables .preview button.dis {
+    background-color        : rgb(184, 184, 184);
+}
+
+.mes-tables .next button.dis:hover,
+.mes-tables .preview button.dis:hover {
+    background-color        : rgb(184, 184, 184);
+
+}
+
+
+.dossier-tables {
+    border-collapse        : collapse !important;
+    margin                 : auto;
+    width                  : 100%;
+
+}
+
+/* .conatainer-table1  table thead th{
+    padding-left: 15px;
+  } */
+
+.conatainer-table1 table thead {
+    background-color        : rgb(156, 156, 156);
+}
+
+
+.dossier-tables table tbody tr {
+    text-align        : start;
+}
+
+#dowload {
+    padding                 : 7px;
+    background-color        : #1aa385;
+    border-radius           : 10px;
+    color                   : white;
+    font-size               : 10px;
+}
+
+#dowload:hover {
+    background-color        : #19b895;
+}
+
+.dossier-tables tbody tr td,
+.dossier-tables thead th {
+    text-align        : start;
+    padding           : 10px;
+}
+
+tr:nth-child(odd) {
+    background-color        : #dadadab9;
+}
+
+tr:nth-child(even) {
+    background-color        : #8a7b7277;
+}
+
+.conatainer-table1,
+.conatainer-table1 {
+    display        : none
+}
+
+.conatainer-table1.active,
+.conatainer-table1.active {
+    display        : block
+}
+
+.mes-tables {
+    align-items        : center;
+}
+
+.conatainer-table1 {
+    margin        : 10px;
+}
+
+.mes-tables {
+    margin-top           : 40px;
+    margin-bottom        : 20px;
+}
+
+
+/* -------------------------------------------------------------------------- */
+/*                                  DOSSIERS                                  */
+/* -------------------------------------------------------------------------- */
+.container-form label,
+.dossiers-container h2 {
+    color        : rgb(116, 115, 115);
+}
+
+
+.contianer-recherche,
+.container-select {
+    /* margin-left                        : 5%; */
+    align-items                                : center;
+    /* background-color                        : aquamarine; */
+    width                                      : 20%;
+}
+
+.container-form form input,
+.container-form form select {
+    border                  : 2px solid rgb(42, 173, 162);
+    width                   : 50%;
+    min-width               : 30%;
+    padding                 : 3px;
+    margin-left             : 15px;
+    border-radius           : 3px;
+    background-color        : rgb(233, 233, 233);
+    color                   : black;
+
+}
+
+.container-form form .contianer-recherche button {
+    border                  : 0;
+    background-color        : rgb(42, 173, 162);
+    padding                 : 6px;
+    border-radius           : 4px;
+    color                   : white;
+}
+
+
+
+
+/* -------------------------------------------------------------------------- */
+/*                                   SESSION                                  */
+/* -------------------------------------------------------------------------- */
+
+.admin-creation-session label span {
+    color        : red;
+}
+
+@keyframes top_bottom {
+    0% {
+        -webkit-transform: translateY(-5px) rotateX(-20deg) scale(1.2);
+                transform: translateY(-5px) rotateX(-20deg) scale(1.2);
+        opacity: 0;
+      }
+      100% {
+        -webkit-transform: translateY(0) rotateX(0) scale(1);
+                transform: translateY(0) rotateX(0) scale(1);
+        opacity: 1;
+      }
+    }
+
+.admin-creation-session h1{
+    margin-left: 3rem;
+    margin-right:3rem;
+    font-size: 1.5rem;
+    animation: top_bottom 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) infinite both;
+}
+
+.admin-creation-session {
+    margin: 30px;
+    padding                 : 30px;
+    background-color        : #f1efec;
+    border-radius: 5px;
+    animation: slide-in-elliptic-top-fwd 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+
+}
+
+
+.admin-creation-session label{
+    font-size: 15px;
+    color:rgb(92, 92, 92);
+}
+
+.admin-creation-session .form-group{
+    margin-top: 20px;
+}
+
+.admin-creation-session input{
+    margin:2px
+}
+
+
+.admin-creation-session .submit{
+    float:right;
+    margin-top: 10px;
+}
+
+.admin-creation-session .submit button{
+    border: 0;
+    background-color: rgb(42, 173, 162);
+    padding: 8px 10px;
+    border-radius: 4px;
+    color: white;
+    font-size: 13px;
+
+}
+
+.invalid-feedback{
+    color:red;
+}
+
+/* .admin-voir-session-creer{
+    position: absolute;
+    bottom: 10px;
+    right: 0;
+   margin: 10px;
+}
+
+.admin-voir-session-creer a{
+    background-color: rgb(42, 173, 162);
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    text-decoration: underline;
+
+}
+
+
+.admin-voir-session-creer a:hover{
+    background-color: rgb(36, 122, 115);
+    animation: 500ms ease-in-out;
+    transform: scale(1.2);
+
+} */

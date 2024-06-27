@@ -1,3 +1,4 @@
+
 @extends('app')
 @section('content')
     <div class="all-title-box modif hafiz ifnti">

@@ -2,7 +2,7 @@
 @section('content')
     <div class="all-title-box modif hafiz ifnti">
         <div class="container text-center">
-            <h1>Découvrez le Concours d'Entrepreneuriat 2023-2024 </h1>
+            <h1>Découvrez le Concours d'Entrepreneuriat 2024-2025 </h1>
         </div>
     </div>
 
@@ -31,7 +31,7 @@
                                 <p>L ’IFNTI accueillera une nou v elle promotion à la rentrée uni v ersitaire 2022-2023 . C ette f ormation recrutera des b ac h eliers des séries C, D, E,</p>
                                 <blockquote class="default">
                                 
-                                Le Concours d'Entrepreneuriat 2023-2024 est ouvert à tous, quels que soient votre âge et votre domaine d'expertise. Que vous ayez une idée de start-up révolutionnaire, une solution technologique prometteuse ou une approche novatrice dans un secteur existant, ce concours est fait pour vous. Il vous suffit de soumettre votre candidature en ligne avant la date limite pour avoir la chance d'être sélectionné parmi les finalistes.
+                                Le Concours d'Entrepreneuriat 2024-2025 est ouvert à tous, quels que soient votre âge et votre domaine d'expertise. Que vous ayez une idée de start-up révolutionnaire, une solution technologique prometteuse ou une approche novatrice dans un secteur existant, ce concours est fait pour vous. Il vous suffit de soumettre votre candidature en ligne avant la date limite pour avoir la chance d'être sélectionné parmi les finalistes.
                                 </blockquote>
                                 <p>Situé à Sokodé dans la Région Centrale du Togo, l’IFNTI est implanté dans le quartier
                                     administratif à proximité des deux grands lycées.</p>
@@ -69,7 +69,7 @@
 
                 <div class="col-lg-3 col-12 right-single">
                     <div class="widget-tags">
-                        <p>L'Institut de Formation aux Normes des Technologies de l'Informatique (IFNTI) est sur le point d'accueillir l'un des événements les plus passionnants de l'année : le concours d'entrepreneuriat 2023-2024. Prévu pour le 10 juillet, cet événement rassemblera des esprits créatifs, des innovateurs et des entrepreneurs passionnés, tous désireux de présenter leurs idées et de faire progresser le domaine des technologies de l'information. Dans cet article, nous allons explorer les aspects fascinants de ce concours, qui promet d'être une véritable vitrine du talent et de l'innovation dans le secteur de l'informatique.
+                        <p>L'Institut de Formation aux Normes des Technologies de l'Informatique (IFNTI) est sur le point d'accueillir l'un des événements les plus passionnants de l'année : le concours d'entrepreneuriat 2024-2025. Prévu pour le 10 juillet, cet événement rassemblera des esprits créatifs, des innovateurs et des entrepreneurs passionnés, tous désireux de présenter leurs idées et de faire progresser le domaine des technologies de l'information. Dans cet article, nous allons explorer les aspects fascinants de ce concours, qui promet d'être une véritable vitrine du talent et de l'innovation dans le secteur de l'informatique.
                         </p>
                     </div>
                 </div>

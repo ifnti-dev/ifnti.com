@@ -48,7 +48,7 @@
                         </div>
                         <div class="blog-desc">
                             <p>
-                                L’IFNTI accueillera une nouvelle promotion à la rentrée universitaire 2023-2024. Cette formation recrutera des bacheliers des séries C, D, E ... </p>
+                                L’IFNTI accueillera une nouvelle promotion à la rentrée universitaire 2024-2025. Cette formation recrutera des bacheliers des séries C, D, E ... </p>
                         </div>
                         <div class="blog-button">
                             <a class="hover-btn-new orange" href="{{route("actu.concoursdentree")}}"><span>Lire Plus</span></a>

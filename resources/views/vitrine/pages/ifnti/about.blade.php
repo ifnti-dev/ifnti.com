@@ -82,9 +82,9 @@
                             <h1>Fondateurs</h1>
                             <h3 class="author_name"><a href="#">Sabirou Téouri </a></h3>
                             <h5>est ingénieur informaticien du CNAM, Paris. Travailleur indépendant, consultant
-                                formateur, il a enseigné à l’université de La Rochelle et travaillé au laboratoire de
-                                recherche L3I de La Rochelle. <a href="#">laboratoire de recherche L3I de La
-                                    Rochelle.</a></h5>
+                                formateur, il a enseigné à l’université de La Rochelle et travaillé <a href="#">laboratoire de recherche L3I de La
+                                Rochelle.</a>
+                            </h5>
                         </div>
                         <div class="author-desc">
                             <div class="our-team">

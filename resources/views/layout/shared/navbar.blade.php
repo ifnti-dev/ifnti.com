@@ -13,7 +13,10 @@
             <div class="collapse navbar-collapse" id="navbars-host">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item {{ Route::currentRouteName() === 'accueil' ? 'active' : '' }}"><a
-                            class="nav-link" href="{{ route('accueil') }}">Accueil</a></li>
+                        class="nav-link" href="{{ route('accueil') }}">Accueil</a>
+                    </li>
+  
+
                     <li
                         class="nav-item dropdown  {{ Str::startsWith(Route::currentRouteName(), 'ifnti') ? 'active' : '' }}">
                         <a class="nav-link " id="dropdown-a" href="{{ route('ifnti.ifnti') }}">IFNTI </a>
@@ -61,7 +64,9 @@
                 <ul class="nav navbar-nav navbar-right">
                     <li>
                         <!-- <a class="hover-btn-new log orange" href="https://forms.gle/wgVHzuGSSbQij73g7"><span>Postuler</span></a> -->
-                        <a class="hover-btn-new log orange" href="{{route('dossier.create')}}"><span>Postuler</span></a>                    </li>
+                        <a class="hover-btn-new log orange" href="{{route('dossier.create')}}"><span>Postuler</span></a>   
+                                       
+                    </li>
                 </ul>
             </div>
         </div>

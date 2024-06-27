@@ -16,7 +16,7 @@
                                 <a href="https://github.com/ifnti-dev" target="_blanc"><i class="fa fa-github"></i></a>
                             </li>
                             <li>
-                                <a href="https://tg.linkedin.com/in/ifnti-ifnti-59650a205" target="_blanc" ><i class="fa fa-linkedin"></i></a>
+                                <a href="https://www.linkedin.com/school/75534660/admin/feed/posts/" target="_blanc" ><i class="fa fa-linkedin"></i></a>
                             </li>
                             <li>
                                 <a href="https://www.instagram.com/ifnti/" target="_blanc"><i class="fa fa-instagram"></i></a>

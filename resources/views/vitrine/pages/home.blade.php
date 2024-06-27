@@ -18,8 +18,8 @@
                                         <h2 id="bienvuenue">Bienvuenue à l'<strong>IFNTI </strong><br>
                                             Sokodé</h2>
                                         <p class="lead" id="concour"> Le concours d'entrée pour l'année académique
-                                            2023-2024 est
-                                            prévu le 10 juillet 2023 à 07H00 dans nos locaux. </p>
+                                            2024-2025 est
+                                            prévu le 10 juillet 2025 à 07H00 dans nos locaux. </p>
                                         <a href="https://forms.gle/wgVHzuGSSbQij73g7" class="hover-btn-new"><span>Je m’inscris</span></a>
                                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                         <a href="{{route("ifnti.presentation")}}" class="hover-btn-new"><span>En savoir plus</span></a>
@@ -225,8 +225,7 @@
                                 <h2>2009</h2>
                                 <p>
                                     Fondé en 2009, il est destiné aux bacheliers et aux étudiants souhaitant se
-                                    réorienter. L'IFNTI dispense une formation supérieure en licence de type LMD en
-                                    informatique. </p>
+                                    réorienter. L'IFNTI dispense une formation supérieure en informatique. </p>
                             </div>
                         </div>
                         <div class="timeline__item">
@@ -236,13 +235,13 @@
                                     En 2014, la formation est passé sur un format licence en 6 semestres</p>
                             </div>
                         </div>
-                        <div class="timeline__item">
+                        {{-- <div class="timeline__item">
                             <div class="timeline__content img-bg-03">
                                 <h2>2016</h2>
                                 <p>Initialement, la formation était un complément de formation au BTS en deux semestres.
                                     En 2014, la formation est passée sur un format licence en 6 semestres.</p>
                             </div>
-                        </div>
+                        </div> --}}
                         <div class="timeline__item">
                             <div class="timeline__content img-bg-04">
                                 <h2>2019</h2>

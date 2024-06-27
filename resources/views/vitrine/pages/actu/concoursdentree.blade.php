@@ -2,7 +2,7 @@
 @section('content')
     <div class="all-title-box modif hafiz ifnti">
         <div class="container text-center">
-            <h1>Découvrez le Concours d'Entrepreneuriat 2023-2024 </h1>
+            <h1>Découvrez le Concours d'Entrepreneuriat 2024-2025 </h1>
         </div>
     </div>
 
@@ -12,12 +12,14 @@
                 <div class="col-lg-9 blog-post-single">
                     <div class="blog-item">
                         <div class="image-blog">
-                            <img src="{{ asset('vitrine/images/img/a2.png') }}" alt="" class="img-fluid">
+                            <img src="{{ asset('vitrine/images/img/a2.jpeg') }}" alt="" class="img-fluid">
                         </div>
                         <div class="post-content">
                             <div class="post-date">
-                                <!-- <span class="day">Ouver de </span>
-                                <span class="month">7h à 18h</span> -->
+
+                                <span class="day">Ouvert de </span>
+                                <span class="month">7h à 18h</span>
+
                             </div>
                             <div class="meta-info-blog">
                                 <span><i class="fa fa-calendar"></i> <a href="#">May 11, 2015</a> </span>
@@ -28,10 +30,10 @@
                                 <h2><a href="#" title="">Les détails du concours :</a></h2>
                             </div>
                             <div class="blog-desc">
-                                <p>L ’IFNTI accueillera une nou v elle promotion à la rentrée uni v ersitaire 2022-2023 . C ette f ormation recrutera des b ac h eliers des séries C, D, E,</p>
+                                <p>L ’IFNTI accueillera une nouvelle promotion à la rentrée universitaire 2022-2023 . Cette formation recrutera des bacheliers des séries C, D, E,</p>
                                 <blockquote class="default">
                                 
-                                Le Concours d'Entrepreneuriat 2023-2024 est ouvert à tous, quels que soient votre âge et votre domaine d'expertise. Que vous ayez une idée de start-up révolutionnaire, une solution technologique prometteuse ou une approche novatrice dans un secteur existant, ce concours est fait pour vous. Il vous suffit de soumettre votre candidature en ligne avant la date limite pour avoir la chance d'être sélectionné parmi les finalistes.
+                                Le Concours d'Entrepreneuriat 2024-2025 est ouvert à tous, quels que soient votre âge et votre domaine d'expertise. Que vous ayez une idée de start-up révolutionnaire, une solution technologique prometteuse ou une approche novatrice dans un secteur existant, ce concours est fait pour vous. Il vous suffit de soumettre votre candidature en ligne avant la date limite pour avoir la chance d'être sélectionné parmi les finalistes.
                                 </blockquote>
                                 <p>Situé à Sokodé dans la Région Centrale du Togo, l’IFNTI est implanté dans le quartier
                                     administratif à proximité des deux grands lycées.</p>
@@ -39,37 +41,13 @@
                         </div>
                     </div>
 
-                    <div class="blog-author">
-                        <div class="author-bio">
-                            <h1>Fondateurs</h1>
-                            <h3 class="author_name"><a href="#">Jean-Pierre Paillard </a></h3>
-                            <h5>est ingénieur informaticien de l’ENSIMAG, Grenoble. Ancien maître de conférences, il a
-                                enseigné aux <a href="#">universités de Grenoble et de La Rochelle.</a></h5>
-                            <p class="author_det">
-                                Lorem ipsum dolor sit amet, consectetur adip, sed do eiusmod tempor incididunt ut aut
-                                reiciendise voluptat maiores alias consequaturs aut perferendis doloribus omnis saperet
-                                docendi nec, eos ea alii molestiae aliquand.
-                            </p>
-                        </div>
-                    </div>
-                    <hr class="hr3">
 
-                    <div class="blog-author">
-                        <div class="author-bio">
-                            <h1>Fondateurs</h1>
-                            <h3 class="author_name"><a href="#">Sabirou Téouri </a></h3>
-                            <h5>est ingénieur informaticien du CNAM, Paris. Travailleur indépendant, consultant
-                                formateur, il a enseigné à l’université de La Rochelle et travaillé au laboratoire de
-                                recherche L3I de La Rochelle. <a href="#">laboratoire de recherche L3I de La
-                                    Rochelle.</a></h5>
-                        </div>
-                    </div>
                 </div>
 
 
                 <div class="col-lg-3 col-12 right-single">
                     <div class="widget-tags">
-                        <p>L'Institut de Formation aux Normes des Technologies de l'Informatique (IFNTI) est sur le point d'accueillir l'un des événements les plus passionnants de l'année : le concours d'entrepreneuriat 2023-2024. Prévu pour le 10 juillet, cet événement rassemblera des esprits créatifs, des innovateurs et des entrepreneurs passionnés, tous désireux de présenter leurs idées et de faire progresser le domaine des technologies de l'information. Dans cet article, nous allons explorer les aspects fascinants de ce concours, qui promet d'être une véritable vitrine du talent et de l'innovation dans le secteur de l'informatique.
+                        <p>L'Institut de Formation aux Normes des Technologies de l'Informatique (IFNTI) est sur le point d'accueillir l'un des événements les plus passionnants de l'année : le concours d'entrepreneuriat 2024-2025. Prévu pour le 10 juillet, cet événement rassemblera des esprits créatifs, des innovateurs et des entrepreneurs passionnés, tous désireux de présenter leurs idées et de faire progresser le domaine des technologies de l'information. Dans cet article, nous allons explorer les aspects fascinants de ce concours, qui promet d'être une véritable vitrine du talent et de l'innovation dans le secteur de l'informatique.
                         </p>
                     </div>
                 </div>

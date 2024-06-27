@@ -16,8 +16,8 @@
                         </div>
                         <div class="post-content">
                             <div class="post-date">
-                                <span class="day">Ouver de </span>
-                                <span class="month">7h à 18h</span>
+                                <!-- <span class="day">Ouver de </span> -->
+                                <!-- <span class="month">7h à 18h</span> -->
                             </div>
                             <div class="meta-info-blog">
                                 <span><i class="fa fa-calendar"></i> <a href="#">May 11, 2015</a> </span>
@@ -47,7 +47,7 @@
 
                     <div class="blog-author">
                         <div class="author-bio">
-                            <h1>A retenire</h1>
+                            <h1>A retenir</h1>
                             <h5>La Cérémonie de Remise de Diplômes à l'IFNTI est donc un événement marquant, rempli d'émotions intenses et de moments mémorables. Elle représente la conclusion d'un chapitre important dans la vie des étudiants et marque le début de nouvelles opportunités et de nouvelles réalisations. C'est une célébration de l'engagement, du travail acharné et du succès, ainsi qu'un</a></h5>
                         </div>
                     </div>

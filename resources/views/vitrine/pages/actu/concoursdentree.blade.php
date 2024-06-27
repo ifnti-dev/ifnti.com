@@ -16,8 +16,8 @@
                         </div>
                         <div class="post-content">
                             <div class="post-date">
-                                <span class="day">Ouver de </span>
-                                <span class="month">7h à 18h</span>
+                                <!-- <span class="day">Ouver de </span>
+                                <span class="month">7h à 18h</span> -->
                             </div>
                             <div class="meta-info-blog">
                                 <span><i class="fa fa-calendar"></i> <a href="#">May 11, 2015</a> </span>

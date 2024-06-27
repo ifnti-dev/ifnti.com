@@ -25,6 +25,9 @@ use GuzzleHttp\Psr7\Request;
 //     redirect(route("login"));
 // });
 
+// Route::get('/error-500', function () {
+//     abort(500);
+// });
 
 /**Vitrine */
 Route::get('/', function () {

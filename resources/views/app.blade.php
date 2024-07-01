@@ -27,7 +27,7 @@
 
 <body class="host_version">
     @include('layout.shared.modal')
-    @include('layout.shared.loader')
+    {{-- @include('layout.shared.loader') --}}
     @include('layout.shared.navbar')
     @yield('content')
     @include('layout.shared.footer')

@@ -57,6 +57,10 @@ Route::prefix("ifnti/")->name("ifnti.")->group(
 );
 Route::prefix("admission/")->name("admission.")->group(
     function () {
+
+
+
+        
         Route::get('', function () {
             return redirect(route("admission.concours"));
         })->name('admission');

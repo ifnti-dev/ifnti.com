@@ -19,12 +19,11 @@
             </div>
 
             @include('vitrine.composants.professeurs.permanents')
-            <div class="section-title text-center">
+
+            {{-- <div class="section-title text-center">
                 <h3>Professeurs vacataires</h3>
-            </div>
-
-
-            @include('vitrine.composants.professeurs.vacataires')
+            </div> --}}
+            {{-- @include('vitrine.composants.professeurs.vacataires') --}}
 
         </div>
     </div>

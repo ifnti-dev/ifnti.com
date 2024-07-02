@@ -9,7 +9,7 @@
                         </div>
                         <div class="team-content">
                             <h3 class="title">TEOURI Sabirou</h3>
-                            <span class="post">Directeur des études à IFNTI</span>
+                            <span class="post">Responsable d'établissement</span>
                         </div>
                     </div>
                 </div>
@@ -30,12 +30,12 @@
                 <div class="col-lg-3 col-md-6 col-12">
                     <div class="our-team">
                         <div class="team-img">
-                            <img src="{{ asset('vitrine/images/img/muriel.png') }}" />
+                            <img src="{{ asset('vitrine/images/img/fondateur.png') }}" />
                             {{--  --}}
                         </div>
                         <div class="team-content">
-                            <h3 class="title">Muriel MILHAU</h3>
-                            <span class="post">Responsable projets et relations extérieurs</span>
+                            <h3 class="title">Jean-Pierre Paillard</h3>
+                            <span class="post">Membre fondateur</span>
                         </div>
                     </div>
                 </div>
@@ -48,7 +48,7 @@
                         </div>
                         <div class="team-content">
                             <h3 class="title">Abdel ADOYI</h3>
-                            <span class="post">Responsable administratif </span>
+                            <span class="post">Responsable technologiques émergentes </span>
                         </div>
                     </div>
                 </div>

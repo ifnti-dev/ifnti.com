@@ -3,28 +3,16 @@
     <div class="col-lg-3 col-md-6 col-12">
         <div class="our-team">
             <div class="team-img">
-                <img src="{{ asset('vitrine/images/img/logoIfnti.png') }}" alt="" />
-            </div>
-            <div class="team-content">
-                <h3 class="title">Manaar Alissera</h3>
-                <span class="post">
-                    Professeur en gestion de projets et administration de système d'exploitation </span>
-            </div>
-        </div>
-    </div>
-    {{-- ------------------------------------------------------------------ --}}
-    <div class="col-lg-3 col-md-6 col-12">
-        <div class="our-team">
-            <div class="team-img">
                 <img src="{{ asset('vitrine/images/img/koumoi.jpg
                                             ') }}" alt="" />
             </div>
             <div class="team-content">
                 <h3 class="title">Koumoi </h3>
-                <span class="post">Professeur en programmation web</span>
+                <span class="post">Directeur des études</span>
             </div>
         </div>
     </div>
+
     {{-- ------------------------------------------------------------------ --}}
     <div class="col-lg-3 col-md-6 col-12">
         <div class="our-team">
@@ -43,7 +31,7 @@
     <div class="col-lg-3 col-md-6 col-12">
         <div class="our-team">
             <div class="team-img">
-                <img src="{{ asset('vitrine/images/img/logoIfnti.png') }}" alt="" />
+                <img src="{{ asset('vitrine/images/img/sema.png') }}" alt="" />
             </div>
             <div class="team-content">
                 <h3 class="title">Sema</h3>

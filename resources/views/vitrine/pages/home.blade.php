@@ -19,7 +19,7 @@
                                             Sokodé</h2>
                                         <p class="lead" id="concour"> Le concours d'entrée pour l'année académique
                                             2024-2025 est
-                                            prévu le 10 juillet 2025 à 07H00 dans nos locaux. </p>
+                                            prévu le 29 juillet 2025 à 07H00 dans nos locaux. </p>
                                         <a href="https://forms.gle/wgVHzuGSSbQij73g7" class="hover-btn-new"><span>Je m’inscris</span></a>
                                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                         <a href="{{route("ifnti.presentation")}}" class="hover-btn-new"><span>En savoir plus</span></a>
@@ -61,8 +61,7 @@
                                         <h2 data-animation="animated zoomInRight"><strong>IFNTI</strong> Journée Portes
                                             Ouvertes
                                         </h2>
-                                        <p class="lead" data-animation="animated fadeInLeft">L'IFNTI organise une
-                                            journée portes-ouvertes le samedi 21 mai 2023.Présentation de projets étudiants tous plus innovants les uns que les autres..</p>
+                                        <p class="lead" data-animation="animated fadeInLeft">Non organisé pour cette année 2024</p>
                                         <a href="https://forms.gle/wgVHzuGSSbQij73g7" class="hover-btn-new"><span>Je m’inscris</span></a>
                                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                         <a href="{{route("ifnti.presentation")}}" class="hover-btn-new"><span>En savoir plus</span></a>
@@ -114,8 +113,9 @@
                 <div class="col-md-8 offset-md-2">
                     <h3>À propos</h3>
                     <p class="lead">L'Institut de formation aux normes et technologies de l'informatique (IFNTI) est un
-                        institut renommé dédié à l'excellence académique dans le domaine de l'informatique. Avec
-                        une approche innovante et axée sur les normes de l'industrie, IFNTI offre une formation pratique
+                        institut renommé dédié à l'excellence académique dans le domaine de l'informatique.
+                        Avec une approche innovante et axée sur les normes de l'industrie, IFNTI  est situé à proximité 
+                        des deux grands Lycées à Sokodé dans un cadre calme, boisé et, offre une formation pratique
                         de qualité supérieure pour préparer les étudiants à une carrière prometteuse dans le domaine de
                         l'informatique. Notre institut est reconnu pour son corps professoral hautement qualifié, son
                         environnement d'apprentissage dynamique et ses partenariats solides avec l'industrie, assurant
@@ -132,9 +132,15 @@
                         <p>L' IFNTI est un institut de formation post-bac situé à Sokodé, dans la région centrale du
                             Togo.</p>
 
-                        <p> Fondé en 2009, il est destiné aux bacheliers et aux étudiants souhaitant se réorienter.
+                        <p>
+                            Il recrute des bachiliers scientifique pour une licence LMD en 3 ans. La formation est orienté
+                            sur les elements de competences necessaires aux entreprses. L'accent mis sur les fondements des 
+                            technologies de l'information garenti une pérénité d'adaptabilité des apprenants face aux 
+                            technologies émergentes.
+                        </p>
+                        {{-- <p> Fondé en 2009, il est destiné aux bacheliers et aux étudiants souhaitant se réorienter.
                             L’IFNTI dispense une formation supérieure en licence de type LMD en informatique. L’IFNTI
-                            est une Association à but non lucratif (ASBL). . </p>
+                            est une Association à but non lucratif (ASBL). . </p> --}}
 
                         <a href="{{route("ifnti.presentation")}}" class="hover-btn-new orange"><span>En savoir plus</span></a>
                     </div>
@@ -163,8 +169,10 @@
                             travail
                         </span><br>
                         <span>
-                            <i class="fa fa-angle-right"></i>Nous limitons nos effectifs pour un apprentissage de
-                            qualité</span>
+                            <i class="fa fa-angle-right"></i>
+                            Nous limitons nos effectifs à 24 étudiants par promotion ce qui donne un taux d'encadrement 
+                            très élévé, gage d'un apprentissage de qualité
+                        </span>
                         <span><br>
                             <i class="fa fa-angle-right"></i>Nous disposons des équipements informatiques dédiés
                             et accessibles à
@@ -177,9 +185,7 @@
                             <i class="fa fa-angle-right"></i>Nous avons plusieurs partenariats
                             internationaux</span>
                         <span><br>
-                            <i class="fa fa-angle-right"></i>Notre taux d'employabilité à ce jour est de 85% de
-                            nos étudiants
-                            formés
+                            <i class="fa fa-angle-right"></i>Le taux d'employabilité est très fort du faite des compétences acquisent par les étudiants a la sortie
                         </span>
                     </div>
                 </div>
@@ -230,18 +236,20 @@
                         </div>
                         <div class="timeline__item">
                             <div class="timeline__content img-bg-02">
-                                <h2>2014</h2>
-                                <p>Initialement, la formation était un complément de formation au BTS en deux semestres.
-                                    En 2014, la formation est passé sur un format licence en 6 semestres</p>
+                                <h2>2009 - 2013</h2>
+                                <p>
+                                    Création, installation et négociation avec les partenaires en particulier l'ambassade de 
+                                    France qui aurra financé les premiers équipements
+                                </p>
                             </div>
                         </div>
-                        {{-- <div class="timeline__item">
+                        <div class="timeline__item">
                             <div class="timeline__content img-bg-03">
-                                <h2>2016</h2>
+                                <h2>2013 - 2014</h2>
                                 <p>Initialement, la formation était un complément de formation au BTS en deux semestres.
                                     En 2014, la formation est passée sur un format licence en 6 semestres.</p>
                             </div>
-                        </div> --}}
+                        </div>
                         <div class="timeline__item">
                             <div class="timeline__content img-bg-04">
                                 <h2>2019</h2>

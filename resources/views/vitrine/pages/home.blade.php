@@ -19,7 +19,7 @@
                                             Sokodé</h2>
                                         <p class="lead" id="concour"> Le concours d'entrée pour l'année académique
                                             2024-2025 est
-                                            prévu le 29 juillet 2025 à 07H00 dans nos locaux. </p>
+                                            prévu le 29 juillet 2024 à 07H00 dans nos locaux. </p>
                                         <a href="https://forms.gle/wgVHzuGSSbQij73g7" class="hover-btn-new"><span>Je m’inscris</span></a>
                                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                         <a href="{{route("ifnti.presentation")}}" class="hover-btn-new"><span>En savoir plus</span></a>

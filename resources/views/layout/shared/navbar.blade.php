@@ -64,7 +64,7 @@
                 <ul class="nav navbar-nav navbar-right">
                     <li>
                         <!-- <a class="hover-btn-new log orange" href="https://forms.gle/wgVHzuGSSbQij73g7"><span>Postuler</span></a> -->
-                        <a class="hover-btn-new log orange" href="{{route('dossier.create')}}"><span>Postuler</span></a>   
+                        <a class="hover-btn-new log orange" href="https://forms.gle/wgVHzuGSSbQij73g7"><span>Postuler</span></a>   
                                        
                     </li>
                 </ul>
